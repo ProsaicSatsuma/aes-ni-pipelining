@@ -774,7 +774,7 @@ void AES_CBC_Encrypt_ThirtyTwo(const unsigned char *in,
 
 int main() {
 
-        const uint32_t width = 32;
+        const uint32_t width = 1;
 
         const unsigned char key[16] = {
 		0xc2, 0x86, 0x69, 0x6d, 
